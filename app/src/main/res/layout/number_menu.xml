@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#909eab"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="긴급전화" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#00000000"
+        android:id="@+id/button17"
+        android:layout_gravity="right"
+        android:layout_weight="0.16"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="65dp"
+        android:onClick="btn17"
+        android:background="#00000000"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#00000000"
+        android:id="@+id/button18"
+        android:layout_gravity="right"
+        android:layout_weight="0.16"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="255dp"
+        android:onClick="btn18"
+        android:background="#00000000"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#00000000"
+        android:id="@+id/button16"
+        android:layout_gravity="right"
+        android:layout_weight="0.16"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="450dp"
+        android:onClick="btn16"
+        android:background="#00000000"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#00000000"
+        android:id="@+id/button15"
+        android:layout_gravity="right"
+        android:layout_weight="0.16"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="640dp"
+        android:onClick="btn15"
+        android:background="#00000000"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#00000000"
+        android:id="@+id/button14"
+        android:layout_gravity="right"
+        android:layout_weight="0.16"
+        android:layout_marginLeft="250dp"
+        android:onClick="btn14"
+        android:layout_marginTop="830dp"
+        android:background="#00000000"/>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:textColor="#00000000"
+        android:id="@+id/button13"
+        android:layout_gravity="right"
+        android:layout_weight="0.16"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="1025dp"
+        android:onClick="btn13"
+        android:background="#00000000"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/police"
+        android:layout_weight="0.16" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/oneone"
+        android:layout_weight="0.16"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/suport"
+        android:layout_weight="0.16"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/danuri"
+        android:layout_weight="0.16"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/law"
+        android:layout_weight="0.16"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/visit"
+        android:layout_weight="0.16"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+</RelativeLayout>
+</LinearLayout>
+    </ScrollView>
